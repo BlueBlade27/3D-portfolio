@@ -25,10 +25,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import techGirls from "./company/techGirls.jpg";
+import TPS from "./company/TPS.png";
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import GitAgent from "./GitAgent.png";
+import movie from "./movie.png";
+import pantry from "./pantry.png";
+import text from "./text.png";
+import flash from "./flash.png";
 
 export {
   logo,
@@ -59,4 +68,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  techGirls,
+  TPS,
+  GitAgent,
+  movie,
+  pantry,
+  text,
+  flash,
 };

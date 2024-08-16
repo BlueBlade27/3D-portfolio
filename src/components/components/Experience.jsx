@@ -16,7 +16,18 @@ const ExperienceCard = ({experience}) => (
     iconStyle = {{background: experience.iconBg}}
     icon = {
       <div className="flex justify-center items-center w-full h-full">
-        <img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
+        {/* <img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" /> */}
+        <img 
+  src={experience.icon} 
+  alt={experience.company_name} 
+  className={`w-[80%] h-[80%] object-contain ${
+    experience.company_name === "Technovation Girls" || experience.company_name === "Toronto Police Service" 
+    ? "rounded-full" 
+    : ""
+  }`}
+/>
+
+      
       </div>
     }
   >
@@ -44,7 +55,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className = {styles.sectionSubText}>What I have done so far</p>
-        <h2 className = {styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className = {styles.sectionHeadText}>Work Experience & Competitions.</h2>
       
       </motion.div>
 

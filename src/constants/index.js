@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    techGirls,
+    TPS,
+    GitAgent,
+    movie,
+    pantry,
+    text,
+    flash,
   } from '../assets/assets';
   
   export const navLinks = [
@@ -42,19 +49,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile App Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Project Developer/Manager",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Technical Support Specialist",
       icon: creator,
     },
   ];
@@ -116,50 +123,36 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Echo",
+      company_name: "Technovation Girls",
+      icon: techGirls,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2020 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed the \"Echo\" application using MIT App Inventor to help small businesses gain customers during COVID-19.",
+        "Collaborated with a team of 3 to create the app and business plan.",
+        "Led troubleshooting efforts, inspecting and resolving code issues.",
+        "Played a lead role in the app's development and business planning resulting in the app winning 27th place worldwide.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "PassionFruit",
+      company_name: "Technovation Girls",
+      icon: techGirls,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct 2021 - Jan 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created \"PassionFruit,\" a mobile application to help users discover volunteer, extracurricular, internship, and apprenticeship opportunities.",
+        "Used MIT App Inventor for development and troubleshooting.",
+        "Served as Computer Programmer and Marketing Director, leading the app and business plan creation in a team of 3.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "IT support",
+      company_name: "Toronto Police Service",
+      icon: TPS,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,67 +191,125 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Github Agent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed to automatically review and analyze code changes. It uses machine learning models to provide insights, suggestions, and potential improvements for code submissions. The project aims to enhance code quality, catch potential bugs, and streamline the code review process by offering automated feedback to developers.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "langChain",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "openAI",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "astraDB",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "githubAPI",
+          color: "green-text-gradient",
+        },
+      ],
+      image: GitAgent,
+      source_code_link: "https://github.com/BlueBlade27/Github-agent",
+    },
+    {
+      name: "Movie Web App",
+      description:
+        "A responsive Netflix-inspired web app featuring a dark theme, movie carousels, and light/dark mode toggle. Built with HTML, CSS, and JavaScript, it showcases complex front-end development and interactive design, replicating key elements of popular streaming platforms.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: movie,
+      source_code_link: "https://github.com/BlueBlade27/Movie-Website",
     },
     {
-      name: "Trip Guide",
+      name: "Pantry Tracker",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Pantry Tracker is a full-stack web application made to help users manage their home pantry inventory. Built with React.js and TypeScript on the frontend, and Node.js with Express.js on the backend, it uses MongoDB for data storage. The app features user authentication via JWT, a RESTful API, and design using CSS modules and Tailwind CSS.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react",
           color: "green-text-gradient",
         },
         {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "materialUI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: pantry,
+      source_code_link: "https://github.com/BlueBlade27/Pantry-Tracker",
+    },
+    {
+      name: "Predictive text editor",
+      description:
+        "Implements a predictive text feature that suggests words based on user input. As the user types, it displays matching suggestions from a dictionary API (datamuse), adjusting the case to match the input. When the user presses Enter, the suggestion is automatically filled into the input field.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "datamuseAPI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: text,
+      source_code_link: "https://github.com/BlueBlade27/predictive-text",
+    },
+    {
+      name: "FlashLearn",
+      description:
+        "FlashLearn is a web application designed to streamline the creation and study of flashcards, tailored for students. It allows users to create custom flashcard decks, add cards with questions and answers, and efficiently study them using intuitive navigation controls.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: flash,
+      source_code_link: "https://github.com/BlueBlade27/RocketHacks",
     },
   ];
   

@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
           <h1 className = {`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Deepika</span></h1>
           <p className={`${styles.heroSubText} mt- text-white-100`}>
-            I'm a full-stack developer with a passion <br className = "sm:block hidden" />for creating beautiful and functional websites.
+            I'm a computer science student with a passion <br className = "sm:block hidden" />for creating impactful solutions with technology.
           </p>
         </div>
       </div>
@@ -23,10 +23,10 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className = "w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className = "w-[25px] h-[44px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1">
             <motion.div
               animate={{
-                y: [0, 24, 0]
+                y: [0, 18, 0]
               }}
               transition = {{
                 duration: 1.5,

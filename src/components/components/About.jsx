@@ -2,7 +2,7 @@ import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion';
 
 import {styles} from '../../styles';
-import {services} from '../../constants';
+import {services} from '../../constants/index';
 import {fadeIn, textVariant} from '../../utils/motion';
 import { SectionWrapper } from '../../hoc';
 
@@ -42,12 +42,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className = "mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software engineer with experience in developing web applications and websites. I have a strong foundation in computer science and programming, with expertise in front-end and back-end technologies. I'm passionate about creating innovative and user-friendly solutions that meet the needs of clients and end-users. I'm always looking to expand my knowledge and skills, and I'm excited to take on new challenges and opportunities.
+        
+      I'm a passionate software engineering student with a solid foundation in computer science, specializing in both front-end and back-end technologies. My experience includes full-stack and mobile app development, with a focus on creating solutions that genuinely help others. I'm skilled in simplifying complex concepts, providing support, and leading projects from inception to completion. Always eager to learn and grow, I'm excited to leverage my skills in developing impactful, user-centered applications that meet the needs of diverse communities.
       </motion.p>
 
       <div className = "mt-20 flex flex-wrap gap-10">
-          {services.map((service, index) => (
-              <ServiceCard key= {service.title} index = {index} {...service}/>
+          {services.map((services, index) => (
+              <ServiceCard key= {services.title} index = {index} {...services}/>
           
             
           ))}
