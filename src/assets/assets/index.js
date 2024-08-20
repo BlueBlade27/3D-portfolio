@@ -27,7 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import techGirls from "./company/techGirls.jpg";
 import TPS from "./company/TPS.png";
-
+import ignition from "./company/ignition.png";
+import rocket from "./company/rocket.png";
 
 
 import carrent from "./carrent.png";
@@ -38,6 +39,7 @@ import movie from "./movie.png";
 import pantry from "./pantry.png";
 import text from "./text.png";
 import flash from "./flash.png";
+import breathe from "./breathe.png";
 
 export {
   logo,
@@ -75,4 +77,7 @@ export {
   pantry,
   text,
   flash,
+  ignition,
+  rocket,
+  breathe,
 };

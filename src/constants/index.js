@@ -30,6 +30,9 @@ import {
     pantry,
     text,
     flash,
+    ignition,
+    rocket,
+    breathe,
   } from '../assets/assets';
   
   export const navLinks = [
@@ -158,6 +161,30 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "FlashLearn",
+      company_name: "RocketHacks",
+      icon: rocket,
+      iconBg: "#E6DEDD",
+      date: "July 2024",
+      points: [
+        "Project: FlashLearn - A web application designed to simplify the creation and study of flashcards, tailored for students.",
+        "Technologies Used: HTML, CSS, JavaScript, and local storage for data management.",
+        " Gained an in-depth understanding of front-end web development, DOM manipulation, event handling, and CSS animations.",
+      ],
+    },
+    {
+      title: "BreatheEZ",
+      company_name: "Ignition Hacks",
+      icon: ignition,
+      iconBg: "#383E56",
+      date: "August 2024",
+      points: [
+        "Project: BreatheEZ - A comprehensive web platform designed to help individuals manage their respiratory health, particularly those with asthma.",
+        "Technologies Used: ReactJS, TailwindCSS, HTML, JavaScript, Vite, Node.js, Express.js, Axios, WeatherAPI, Firebase for user authentication, and Chatling for an AI-powered chatbot.",
+        "Gained a deeper understanding of full-stack web development, real-time data integration, natural language processing, user authentication, and AI chatbot creation. Enhanced skills in UI/UX design and deploying web applications on Vercel.",
       ],
     },
   ];
@@ -310,6 +337,59 @@ import {
       ],
       image: flash,
       source_code_link: "https://github.com/BlueBlade27/RocketHacks",
+    },
+    {
+      name: "BreatheEZ",
+      description:
+        "BreatheEZ is a web platform focused on helping individuals manage their respiratory health, particularly those with asthma. It provides real-time air quality and weather reports, personalized breathing exercises, and an AI-powered chatbot for tailored health advice.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WeatherAPI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Chatling",
+          color: "green-text-gradient",
+        },
+      ],
+      image: breathe,
+      source_code_link: "https://github.com/BlueBlade27/BreatheEZ",
     },
   ];
   

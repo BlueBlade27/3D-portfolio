@@ -21,7 +21,7 @@ const ExperienceCard = ({experience}) => (
   src={experience.icon} 
   alt={experience.company_name} 
   className={`w-[80%] h-[80%] object-contain ${
-    experience.company_name === "Technovation Girls" || experience.company_name === "Toronto Police Service" 
+    experience.company_name === "Technovation Girls" || experience.company_name === "Toronto Police Service"|| experience.company_name === "Ignition Hacks" 
     ? "rounded-full" 
     : ""
   }`}
@@ -55,7 +55,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className = {styles.sectionSubText}>What I have done so far</p>
-        <h2 className = {styles.sectionHeadText}>Work Experience & Competitions.</h2>
+        <h2 className = {styles.sectionHeadText}>Work Experience & Hackathons.</h2>
       
       </motion.div>
 
