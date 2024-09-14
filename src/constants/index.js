@@ -151,7 +151,7 @@ import {
       ],
     },
     {
-      title: "IT support",
+      title: "IT support intern",
       company_name: "Toronto Police Service",
       icon: TPS,
       iconBg: "#383E56",
