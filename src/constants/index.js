@@ -33,6 +33,8 @@ import {
     ignition,
     rocket,
     breathe,
+    htv,
+    binbuddy,
   } from '../assets/assets';
   
   export const navLinks = [
@@ -185,6 +187,18 @@ import {
         "Project: BreatheEZ - A comprehensive web platform designed to help individuals manage their respiratory health, particularly those with asthma.",
         "Technologies Used: ReactJS, TailwindCSS, HTML, JavaScript, Vite, Node.js, Express.js, Axios, WeatherAPI, Firebase for user authentication, and Chatling for an AI-powered chatbot.",
         "Gained a deeper understanding of full-stack web development, real-time data integration, natural language processing, user authentication, and AI chatbot creation. Enhanced skills in UI/UX design and deploying web applications on Vercel.",
+      ],
+    },
+    {
+      title: "BinBuddy",
+      company_name: "Hack the Valley 9",
+      icon: htv,
+      iconBg: "#383E56",
+      date: "Oct 2024",
+      points: [
+        "Project: Bin Buddy - An intelligent waste-sorting companion designed to empower users in making informed waste disposal choices, promoting sustainability and responsible waste management.",
+        "Technologies Used: React Native, Tailwind CSS, Expo, TensorFlow Lite, and Firebase.",
+        "Learned more about optimizing machine learning models for real-world applications, mobile app development, user feedback integration, and enhancing user experience, while developing skills in deploying cross-platform apps and fostering an eco-conscious community.",
       ],
     },
   ];
@@ -390,6 +404,47 @@ import {
       ],
       image: breathe,
       source_code_link: "https://github.com/BlueBlade27/BreatheEZ",
+    },
+    {
+      name: "BinBuddy",
+      description:
+        "Bin Buddy leverages machine learning with TensorFlow to identify whether an item is recyclable, compostable, or trash—all by simply taking a picture. Our user-friendly app provides real-time guidance, ensuring that you always know the right bin to use, helping to reduce contamination and promote responsible waste disposal.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TensorFlow Lite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Expo",
+          color: "green-text-gradient",
+        },
+      ],
+      image: binbuddy,
+      source_code_link: "https://github.com/BlueBlade27/BinBuddy",
     },
   ];
   

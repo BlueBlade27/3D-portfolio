@@ -22,7 +22,8 @@ const ExperienceCard = ({ experience }) => (
           className={`w-[80%] h-[80%] object-contain ${
             experience.company_name === "Technovation Girls" || 
             experience.company_name === "Toronto Police Service" || 
-            experience.company_name === "Ignition Hacks" 
+            experience.company_name === "Ignition Hacks" || 
+            experience.company_name === "Hack the Valley 9" 
               ? "rounded-full" 
               : ""
           }`}
