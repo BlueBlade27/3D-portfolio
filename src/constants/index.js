@@ -17,6 +17,7 @@ import {
     docker,
     meta,
     starbucks,
+    AIresume,
     tesla,
     shopify,
     carrent,
@@ -24,17 +25,20 @@ import {
     tripguide,
     threejs,
     techGirls,
+    awsShortener,
     TPS,
     GitAgent,
     movie,
     pantry,
     text,
     flash,
+    safetyapp,
     ignition,
     rocket,
     breathe,
     htv,
     binbuddy,
+    tetris,
   } from '../assets/assets';
   
   export const navLinks = [
@@ -445,6 +449,138 @@ import {
       ],
       image: binbuddy,
       source_code_link: "https://github.com/BlueBlade27/BinBuddy",
+    },
+    {
+      name: "Tetris",
+      description:
+        "Tetris – CSCB58 is a full-featured Tetris game built from the ground up in MIPS Assembly. It utilizes memory-mapped I/O for display and input within the MARS simulator. The project features sophisticated systems like rotation-aware collision detection and efficient line-clearing algorithms that compact stored pieces. It includes gravity, multiple speed levels, score tracking, and a pause menu, all rendered with custom graphics for a polished finish.",
+      tags: [
+        {
+          name: "MIPS Assembly",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MARS Simulator",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Low-Level I/O",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Algorithm Design",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tetris,
+      source_code_link: "https://www.youtube.com/watch?v=Ka_0f5D3xwg",
+    },
+    {
+      name: "Safety Planning App",
+      description:
+        "The Safety Planning App empowers users to create and manage a personalized emergency plan. It securely stores critical information like contacts, medical details, and documents within their authenticated profile. Developed with Firebase for real-time data and cloud file storage, the app was built collaboratively using Scrum to ensure a robust and user-focused experience.",
+      tags: [
+        {
+          name: "Android",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Java",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JUnit/Mockito",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MVP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Scrum",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: safetyapp,
+      source_code_link: "https://github.com/Apqrsmd272/B07_Safety_Project",
+    },
+    {
+      name: "AWS URL Shortener",
+      description:
+        "A fully serverless URL shortener application deployed on AWS. The infrastructure, defined as code with AWS CDK, leverages Lambda for backend logic, DynamoDB for persistent storage, and S3 for hosting a static frontend. API Gateway provides a scalable REST interface, creating a cost-efficient and automatically scalable system.",
+      tags: [
+        {
+          name: "AWS CDK",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Lambda",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "DynamoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API Gateway",
+          color: "green-text-gradient",
+        },
+        {
+          name: "S3",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "IaC",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: awsShortener,
+      source_code_link: "https://github.com/BlueBlade27/AWS_URL_shortener",
+    },
+    {
+      name: "AI resume analyzer",
+      description:
+        "An AI-powered tool that tailors resumes to specific job descriptions. It parses uploaded resumes, extracts key skills, and uses local or cloud LLMs (like OpenAI or Phi-3) for intelligent rewriting and optimization. Features a user-friendly Gradio interface and is deployed for free on Hugging Face Spaces for easy access.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ollama",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenAI API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gradio",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Hugging Face",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NLP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "LLM",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: AIresume,
+      source_code_link: "https://github.com/BlueBlade27/AI-Resume-Analyzer",
     },
   ];
   
