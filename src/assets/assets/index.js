@@ -42,6 +42,10 @@ import text from "./text.png";
 import flash from "./flash.png";
 import breathe from "./breathe.png";
 import binbuddy from "./binbuddy.png";
+import AIresume from "./AIresume.png";
+import awsShortener from "./awsShortener.png";
+import safetyapp from "./safetyapp.png";
+import tetris from "./tetris.png";
 
 export {
   logo,
@@ -84,4 +88,8 @@ export {
   breathe,
   htv,
   binbuddy,
+  AIresume,
+  awsShortener,
+  safetyapp,
+  tetris,
 };
