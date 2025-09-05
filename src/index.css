@@ -203,3 +203,24 @@
   }
 }
 
+/* Projects Grid Fix */
+section[class*="motion"] {
+  min-height: fit-content;
+  overflow: visible;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.75rem;
+  margin-top: 5rem;
+  min-height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+}
