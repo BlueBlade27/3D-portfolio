@@ -18,7 +18,12 @@ const ProjectCard = ({
   source_code_link = "#",
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", Math.min(index * 0.2, 1), 0.75)}>
+    <motion.div 
+  variants={fadeIn("up", "spring", Math.min(index * 0.1, 0.5), 0.6)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.2 }}
+>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -81,7 +86,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 min-h-[400px]">
+      <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-7 min-h-[200px] sm:min-h-[400px]">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

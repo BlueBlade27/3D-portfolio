@@ -218,9 +218,30 @@ section[class*="motion"] {
   width: 100%;
 }
 
+/* Mobile specific fixes */
 @media (max-width: 640px) {
   .projects-grid {
     grid-template-columns: 1fr;
     min-height: auto;
+    margin-top: 2.5rem;
+    gap: 1rem;
   }
+  
+  /* Ensure mobile projects section is visible */
+  section {
+    min-height: auto !important;
+    padding-bottom: 2rem;
+  }
+  
+  /* Mobile project cards */
+  .bg-tertiary {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Ensure works section is always visible */
+#work {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
